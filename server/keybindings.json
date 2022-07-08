@@ -1,0 +1,61 @@
+[
+    {
+        "key": "cmd+escape",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus && !terminalIsOpen"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "workbench.action.navigateUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "workbench.action.terminal.focus",
+        "when": "!editorTextFocus && !terminalFocus"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "workbench.action.navigateUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.view.explorer",
+        "when": "!explorerViewletVisible"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.view.search",
+        "when": "!searchViewletVisible"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.view.scm",
+        "when": "activeViewlet != 'workbench.view.scm'"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "activeViewlet == 'workbench.view.scm'"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    }
+]
