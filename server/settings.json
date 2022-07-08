@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "BlexMono Nerd Font",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 600,
+    "editor.renderWhitespace": "all",
+    "editor.inlayHints.enabled": "on",
+    "files.autoSave": "off",
+    "terminal.integrated.fontFamily": "BlexMono Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": 500,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+    },
+    "[php]": {
+        "editor.tabSize": 4,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "lukashass.volar",
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true
+    }
+}
